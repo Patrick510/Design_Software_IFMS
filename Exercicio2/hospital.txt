@@ -1,0 +1,25 @@
+Pessoa
+- Nome
+- Sobrenome
+- Data_nascimento
+- Gênero
+- Telefone
+
+Paciente
+- data_internacao
+
+Funcionario
+- data_admissão
+- id_departamento
+- id_especializa
+
+Hospital - Empregar(), Atender()
++ Nome
++ Endereco
++ Telefone
++ Departamento
+
+Especializa
++ Operacional
++ Administrativo
++ Técnico
