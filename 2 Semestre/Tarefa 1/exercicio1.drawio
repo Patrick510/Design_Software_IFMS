@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="H4dQu56SomCOuqPEe3HF" name="Page-1">
-        <mxGraphModel dx="1592" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2840" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -109,23 +109,80 @@
                         <mxPoint x="470" y="344" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="" style="endArrow=open;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.524;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="46" target="44">
+                <mxCell id="66" value="" style="endArrow=open;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.524;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="46" target="44" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="130" y="242" as="sourcePoint"/>
                         <mxPoint x="250" y="242.5454545454545" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="67" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="67" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="279" y="552" width="17" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="0..n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="68" value="0..n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="281" y="630" width="17" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="0..n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="69" value="0..n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="277" y="280" width="17" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="70" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="274" y="354" width="21" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-720" y="160" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="SistemaDeSuporte" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-589" y="160" width="120" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="81" vertex="1">
+                    <mxGeometry x="55" y="90" width="10" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="BancoDeDados" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-400" y="159" width="100" height="301" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="83" vertex="1">
+                    <mxGeometry x="45" y="90" width="10" height="211" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="-710" y="250" width="10" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Cria chamado de suporte" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="88" target="87" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-690" y="279.12" as="sourcePoint"/>
+                        <mxPoint x="-544.51" y="279.12" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="Registra chamado no banco" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;fontColor=default;entryX=-0.017;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.947;exitY=0.238;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="87" target="84" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-490" y="289.63" as="sourcePoint"/>
+                        <mxPoint x="-334.33000000000004" y="289.63" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="Agente de Suporte" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-180" y="160" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="-170" y="250" width="10" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="Notifica o novo chamado ao gerente" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;fontColor=default;entryX=0.022;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.962;exitY=0.523;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="87" target="92" edge="1">
+                    <mxGeometry x="0.0013" width="160" relative="1" as="geometry">
+                        <mxPoint x="-514.53" y="359.71000000000004" as="sourcePoint"/>
+                        <mxPoint x="-344.49" y="359.645" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="Revisa e atualiza o chamado" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;fontColor=default;entryX=1.032;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.028;exitY=0.905;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry x="0.0013" width="160" relative="1" as="geometry">
+                        <mxPoint x="-169.72000000000003" y="417.04999999999995" as="sourcePoint"/>
+                        <mxPoint x="-344.67999999999984" y="416.95500000000015" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="Notifica atualização ao cliente" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;fontColor=default;entryX=1.023;entryY=0.905;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.026;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="87" target="88" edge="1">
+                    <mxGeometry x="0.0013" width="160" relative="1" as="geometry">
+                        <mxPoint x="-535.11" y="500.03" as="sourcePoint"/>
+                        <mxPoint x="-709.9999999999999" y="499.99900000000014" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
